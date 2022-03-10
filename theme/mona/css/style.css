@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'ElegantIcons';
+	src:url('fonts/ElegantIcons.eot');
+	src:url('fonts/ElegantIcons.eot') format('embedded-opentype'),
+		url('fonts/ElegantIcons.woff') format('woff'),
+		url('fonts/ElegantIcons.ttf') format('truetype'),
+		url('fonts/ElegantIcons.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="your-class-prefix"] {
+*/
+ .arrow_right, .icon_search, .icon_box-checked, .icon_quotations, .icon_house_alt, .icon_camera_alt, .icon_calendar, .icon_film, .icon_like_alt {
+	font-family: 'ElegantIcons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.arrow_right:before {
+	content: "\24";
+}
+.icon_search:before {
+	content: "\55";
+}
+.icon_box-checked:before {
+	content: "\5a";
+}
+.icon_quotations:before {
+	content: "\7b";
+}
+.icon_house_alt:before {
+	content: "\e009";
+}
+.icon_camera_alt:before {
+	content: "\e00f";
+}
+.icon_calendar:before {
+	content: "\e023";
+}
+.icon_film:before {
+	content: "\e024";
+}
+.icon_like_alt:before {
+	content: "\e0dd";
+}
+
+	
